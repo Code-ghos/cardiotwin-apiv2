@@ -1,0 +1,34 @@
+{
+  "class_names": [
+    "Normal",
+    "SVE",
+    "PVC",
+    "Fusion",
+    "Unknown"
+  ],
+  "ecg_types": [
+    "normal",
+    "afib",
+    "pvc",
+    "normal",
+    "normal"
+  ],
+  "n_classes": 5,
+  "segment_len": 187,
+  "sample_rate": 360,
+  "best_val_acc": 0.9234036722389696,
+  "aami_standard": true,
+  "description": {
+    "0": "Normal Sinus Rhythm",
+    "1": "Supraventricular Ectopic (SVE / AFib)",
+    "2": "Ventricular Ectopic Beat (PVC)",
+    "3": "Fusion Beat",
+    "4": "Unknown / Paced Beat"
+  },
+  "model_info": {
+    "architecture": "4-block 1D-CNN",
+    "trained_on": "MIT-BIH (physionet.org/content/mitdb)",
+    "epochs": 30,
+    "opset": 11
+  }
+}
